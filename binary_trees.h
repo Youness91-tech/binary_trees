@@ -45,6 +45,8 @@ size_t binary_tree_height_bl(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 int check_if_perfect(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);
+bst_t *bst_insert(bst_t **tree, int value);
+bst_t *array_to_bst(int *array, size_t size);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
